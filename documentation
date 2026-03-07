@@ -1,0 +1,15 @@
+Create Project:
+cds init --add nodejs incident-management
+
+To Create SAP Fiori App:
+Command Platter(Ctrl+Shift+P) -> Fiori: Open Application Generator -> List Report Page -> Use ocal Cap Project, choose other ->
+
+Run SAP Fiori:
+Command Platter(Ctrl+Shift+P) -> Fiori: Open Application Info -> Preview Application -> npm run watch-incidents(second one)
+
+SAP Fiori Launch page:
+To launch Preview Application
+https://port4004-workspaces-ws-9pkk5.us10.trial.applicationstudio.cloud.sap/launchpage.html#Shell-home
+
+Add tests dependencies:
+npm add -D @cap-js/cds-test
